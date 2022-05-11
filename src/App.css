@@ -1,0 +1,65 @@
+
+
+
+body{
+  background : black;
+  color:wheat;
+
+}
+.col{
+  margin-right: 20%;
+  text-align: center;
+  margin-bottom: 55px;
+
+  
+}
+.col :hover{
+  transition: 1s;
+font-size: x-large;
+
+}
+.mr-2{
+  
+  color: blue;
+  margin-bottom: 5%;
+text-align: justify;  
+}
+
+.movie-app /*> .row */{
+  margin-top: 6%;
+  overflow-x: auto;
+  margin-left: 11%;
+  
+}
+.image-container{
+  position: relative;
+  transition: transform 0.8s;
+  border-color: brown;
+  border-width: 4px;
+  border-radius: 2px;
+  
+}
+.form-control{
+  border-radius: 1%;
+  border-color:whitesmoke;
+  border-width: 5px;
+}
+.image-container:hover{
+  cursor: pointer;
+ 
+
+  transform: scale(1.1);
+}
+.image-container:hover .overlay{
+  opacity: 1;
+}
+.overlay{
+  background: black;
+  position: relative;
+  height: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 1.8s ease;
+  padding: 18px;
+  text-align: center;
+}
