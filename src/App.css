@@ -2,8 +2,8 @@
 
 
 body{
-  background : black;
-  color:wheat;
+  background : rgb(255, 255, 255);
+  color:rgb(98, 0, 255);
 
 }
 .col{
@@ -41,7 +41,7 @@ text-align: justify;
 }
 .form-control{
   border-radius: 1%;
-  border-color:whitesmoke;
+  border-color:rgb(98, 0, 255);
   border-width: 5px;
 }
 .image-container:hover{
