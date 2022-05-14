@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import React, {useEffect, useState} from 'react';
@@ -6,15 +5,12 @@ import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 
-
-
-
 const App=()=>{
 
-  const [movies, setMovies] = useState([]);
-  const [info,setInfo]= useState([]);
-  const [searchValue, setSearchValue]= useState('');
-const[favorites, setFavorites]=useState([]);
+ const [movies, setMovies] = useState([]);
+const [info,setInfo]= useState([]);
+const [searchValue, setSearchValue]= useState('');
+
 const getMovieRequest = async(searchValue)=>{
   const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=1fa1396d`
   const response = await fetch(url);

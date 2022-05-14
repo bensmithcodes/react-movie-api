@@ -2,7 +2,7 @@
 
 
 body{
-  background : rgb(255, 255, 255);
+  background : rgb(223, 223, 223);
   color:rgb(98, 0, 255);
 
 }
@@ -41,7 +41,7 @@ text-align: justify;
 }
 .form-control{
   border-radius: 1%;
-  border-color:rgb(98, 0, 255);
+  border-color:rgb(106, 57, 203);
   border-width: 5px;
 }
 .image-container:hover{

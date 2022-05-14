@@ -8,7 +8,6 @@ const FavoriteComponents = props.favoriteComponent;
         <div className='image-container d-flex justify-content-start m-3'>
             <div className="overlay d-flex align-items-center justify-content">
 
-
             </div>
             <img src= {movie.Poster}alt="movie"></img>
             
