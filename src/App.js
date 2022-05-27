@@ -8,7 +8,7 @@ import SearchBox from './components/SearchBox';
 const App=()=>{
 
  const [movies, setMovies] = useState([]);
-const [info,setInfo]= useState([]);
+//const [info,setInfo]= useState([]);
 const [searchValue, setSearchValue]= useState('');
 
 const getMovieRequest = async(searchValue)=>{
